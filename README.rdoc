@@ -1,31 +1,32 @@
 == README
 
-Coder Manual Project Application
+DevMatch - Coder Manual Project Application
 Subscription-based web application
 http://codermanual.com
 
-Rails use: rails s -p $PORT -b $IP
+A web application where users can sign up with a free or paid account(monthly subscription)
+to get access to an online community of entrepreneurs, investors, and developers.
 
-Things you may want to cover:
+Free users will be able to sign up and create users profiles where they can 
+share information about their interests, as well as about their career experience, and get
+exposure to the rest of the community. 
 
-* Ruby version
+Free users get basic, limited profiles with contact information hidden.
 
-* System dependencies
+Paid(Pro) users pay a monthly subscription fee and not only get to create a user profile
+and get exposure to the rest of the community, they will have access to everyone's contact information
+so they can reach out directly to entrepreneurs, investors, and developers to make ideas happen. 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Backend: Rails 4.1.0
+Frontend: Ruby 2.2.1
+User Authentication: Devise 3.4.1
+Payment handling: Stripe: 1.16.1
+Image upload: Paperclip 4.2.1
+Key hider: Figaro 1.0.0
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+
+------
+To run server on cloud9 use: Rails use: rails s -p $PORT -b $IP
+
