@@ -18,11 +18,17 @@ and get exposure to the rest of the community, they will have access to everyone
 so they can reach out directly to entrepreneurs, investors, and developers to make ideas happen. 
 
 Backend: Rails 4.1.0
+
 Frontend: Ruby 2.2.1
+
 User Authentication: Devise 3.4.1
+
 Payment handling: Stripe: 1.16.1
+
 Image upload: Paperclip 4.2.1
+
 Key hider: Figaro 1.0.0
+
 
 
 
